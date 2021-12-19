@@ -16,11 +16,12 @@ export default function SSR(props) {
 }
 
 export async function getServerData({params}) {
-  const data = await fetch(`https://dog.ceo/api/breeds/image/random`).then((res) => {
-    setTimeout(() => {
-      return res.json()
-    }, 2000)
-  })
+  function timeout(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms))
+  }
+
+  await timeout(3000)
+  const data = await fetch(`https://dog.ceo/api/breeds/image/random`).then((res) => res.json())
 
   return {
     props: {
