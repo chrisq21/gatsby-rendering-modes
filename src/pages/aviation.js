@@ -1,7 +1,6 @@
 import * as React from 'react'
 import fetch from 'node-fetch'
 import {Link} from 'gatsby'
-import apiKey from '../keys'
 
 export default function Aviation(props) {
   const {aviationData} = props.serverData
