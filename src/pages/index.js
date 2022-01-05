@@ -7,10 +7,7 @@ export default function Home (props) {
       <h1>Rendering Modes Starter</h1>
       <ul>
         <li>
-          <Link to='/dsg'>DSG page</Link>
-        </li>
-        <li>
-          <Link to='/ssr'>SSR page</Link>
+          <Link to='/aviation'>SSR page</Link>
         </li>
       </ul>
     </>
