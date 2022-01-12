@@ -2,4 +2,6 @@
 node_modules
 public
 package-lock.json
-
+keys.js
+.env.development
+.env.production
