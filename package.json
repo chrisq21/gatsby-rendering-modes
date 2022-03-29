@@ -13,7 +13,7 @@
   "author": "Brent Jackson <jxnblk@gmail.com>",
   "license": "0BSD",
   "dependencies": {
-    "gatsby": "^4.0.2",
+    "gatsby": "4.10.0",
     "gatsby-plugin-gatsby-cloud": "^4.4.0",
     "node-fetch": "^2.6.2",
     "react": "^17.0.2",
